@@ -13,9 +13,8 @@ setup(
     # long_description=open('README.md').read(),
     install_requires=[
         'Django',
-        'redis'
+        'redis',
         'drf_yasg',
-        'redisdrf_yasg'
         'django_validation@git+https://github.com/shaqayegh-gh/django_validation.git',
     ],
 )
